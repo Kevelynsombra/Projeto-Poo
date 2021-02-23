@@ -18,3 +18,16 @@ pedido=Pedido()
 pedido.valor(pizza)
 
 pedido.comprar(pessoa,pizza)
+
+Pedido.py
+class Pedido:
+  def __init__(self):
+    self._pessoa=None
+    self._pizza=None
+
+  def valor(self,pizza):
+    self._pizza=pizza
+
+  def comprar(self,pessoa,pizza):
+    self._pessoa=pessoa
+    self._pizza=pizza
