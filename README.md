@@ -32,8 +32,8 @@ class Pedido:
     self._pessoa=pessoa
     self._pizza=pizza
     
-   Pessoa.py
-    def leiaint(msg):
+Pessoa.py
+def leiaint(msg):
   while True:
     try:
       n=int(input(msg))
@@ -66,7 +66,7 @@ class Pessoa:
         self._end= input("Insira o seu endereço:")
         self._telefone =leiaint("Insira o telefone:")
        
-   Pizza.py 
+Pizza.py 
  class Pizza:
   def __init__(self):
     self.tamanho=(pessoa['tamanho'])
